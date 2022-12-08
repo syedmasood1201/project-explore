@@ -1,0 +1,32 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black !important;
+  overflow-x: hidden;
+  color: white !important;
+}
+
+h1 {
+    margin-top: 20% !important;
+    margin-left: 34%;
+    margin-right: 30%;
+}
+
+@media (max-width: 900px) {
+    body {
+      overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 1.5rem !important;
+        margin-top: 50% !important;
+    }
+}
